@@ -6,36 +6,14 @@ background-color: #59ee7b;
 }
 
 #encabezado{
-text-align: center;
-font-size: 25px;
-color: #00580F;
+font-size: 55px;
 }
 
-#lista{
-text-align: center;
-color: #000000;
+#descrip{
+test-align: left;
+color: gold;
+font-size: 30px;
 }
-
-#ca{
-background-color: #fabada;
-border: 1px solid black;
-}
-
-#pa{
-background-color: #fabada;
-border: 1px solid black;
-}
-
-#dan{
-background-color: #fabada;
-border: 1px solid black;
-}
-
-#adr{
-background-color: #fabada;
-border: 1px solid black;
-}
-
 
 
 #repositorio{
