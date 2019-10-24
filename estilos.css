@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*Documento CSS*/
+
+body{
+background-color: #59ee7b;
+}
+
+#encabezado{
+text-align: center;
+font-size: 25px;
+color: #00580F;
+}
+
+#lista{
+text-align: center;
+color: #000000;
+}
+
+#ca{
+background-color: #fabada;
+border: 1px solid black;
+}
+
+#pa{
+background-color: #fabada;
+border: 1px solid black;
+}
+
+#dan{
+background-color: #fabada;
+border: 1px solid black;
+}
+
+#adr{
+background-color: #fabada;
+border: 1px solid black;
+}
+
+
+
+#repositorio{
+ text-align: center;
+}
