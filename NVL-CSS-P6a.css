@@ -1,2 +1,46 @@
 @charset "utf-8";
 /*Documento CSS*/
+
+body{
+background: linear-gradient(black, orange);
+}
+
+.encabezado{
+text-align: center;
+color: yellow;
+font-size: 30px;
+}
+.pie{
+text-align: center;
+font: italic;
+}
+#cabecera{
+font-size:22px;
+Color: black;
+font-style: normal;
+background-color: silver;
+}
+.tabla{
+
+margin: 100px 200px 200px 200px;
+padding: 90px 90px 90px 90px;
+border: 18px outset silver;
+
+text-align: center;
+font-style: italic;
+font-weight: bold;
+color: red;
+font-size:18px;
+}
+table.tabla{
+margin: auto;
+}
+.degradado{
+padding: 100px;
+margin: 100px;
+background: linear-gradient(white, black);
+}
+
+
+
+
