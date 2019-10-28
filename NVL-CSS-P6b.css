@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*Documento CSS*/
+
+body{
+background: linear-gradient(black, orange);
+}
+
+.encabezado{
+text-align: center;
+color: yellow;
+font-size: 30px;
+}
+.pie{
+text-align: center;
+font: italic;
+}
+.contenido{
+padding: 200px;
+margin: 100px;
+border: 14px double silver;
+}
+
+
+
+
+
+
+
