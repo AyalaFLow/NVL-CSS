@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*Documento CSS*/
+
+body{
+background: linear-gradient(black, orange);
+}
+
+.encabezado{
+text-align: center;
+color: yellow;
+font-size: 30px;
+}
+.pie{
+text-align: center;
+font: italic;
+}
+
+form{
+overflow: auto;
+text-align: center;
+border: 2px groove red;
+margin: 50px 650px 50px 650px;
+padding:50px 60px 50px 60px;
+}
+label{
+ float: center;
+ width: 300px;
+ padding-right: 25px;
+ text-align: right;
+ font-size: 15pt;font-weight: bolder; letter-sapcing: 3px;font-family: Garamond;
+}
+input{
+ float: center;
+ width: calc(580px - 150px)
+}
+button{
+ float: center;
+ width: calc(300px - 200px)
+}
+form button{
+background: silver;
+border: 5px outset white;
+padding: 6px;
+}
+form button:hover{
+background: red;
+}
+.textarea{
+float: center;
+width: 280px;
+height: 150px;
+border:1px dotted red;
+font-family: Garamond,verdana;font-size: 14pt;font-weight: bold;letter-spacing: 5px;
+}
