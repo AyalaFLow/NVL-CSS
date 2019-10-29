@@ -13,26 +13,116 @@
    <hr>
    <p><b>Práctica 6b</b></p>
    </div> 
+ 
+   <div id="cuerporeceta">
+   <div class="nombreceta">
+   <h1>Tortilla de patatas</h1>
+   <hr>   
    
-   <br>
+   <table> 
+   <tr>
+    <td><img src="receta/Tortilla.jpg" alt="tortilla" width="350" height="250" title="torilla"></td>
+    <td>
+        <dl>
+         <dt>INFO</dt><br><br>
+         <dd>Dificultad: media</dd>
+             <hr>
+         <dd>Para 6 personas</dd>
+             <hr>
+         <dd>0,5&euro;/Persona</dd>
+             <hr>
+         <dd>315Kcal por 100g.</dd>   
+             <hr> </hr>   
+        </dl>
+    </td>
+   </tr>
+   </table>
+   </div>
+
+   <div class="ingredientes">
+   <h2>Ingredientes para Tortilla de patatas</h2>
+   <table border="0">
+     <tr>
+       <td>8 huevos camperos o 10 huevos normales</td>
+       <td>cebolla grande</td>      
+     </tr>
+     <tr>
+       <td>1Kg de patatas gallegas</td>
+       <td>Sal (al gusto)</p>      
+     </tr>
+     <tr>
+       <td>Aceite de oliva virgen extra para la fritura de las patatas.</td>
+     </tr>
+   </table>
+   </div>
+
+   <div id="notatortilla">
+   <section>
+   <p><img src="receta/tortillaX.jpg" alt="Tortilla Española" width="250" height="200" title="Tortilla Española">Cómo preparar una tortilla de patatas. El concurso nacional de tortillas dice que este año la reina de todas las tortillas de patatas está en Galicia (Betanzos), así que a fardar de tortilla ¿qué os pensabais?</p><br>
+   <p>La descripción de la mejor tortilla de España según los entendidos del concurso nacional de tortilla de patatas se resume en dos frases:</p><br>
+   <p>“Tortilla con los mejores productos de su tierra”, y “Conseguir que el huevo conserve sus propiedades de sabor, color y aroma gracias a una cuidada elaboración en la que el huevo batido en sus justa medida y la patata caliente, gracias a una precocción, permiten que el huevo jugoso termine inundando el plato”.</p><br>
+   </section>
+   </div>
+
+   <div id="prepara">
+   <section>
+   <h2>Preparación de la tortilla de patatas </h2>
+   <ol>
+     <li>Pelamos las patatas, las lavamos para quitar restos de suciedad y muy importante, las secamos.</li>
+     <li>Cortamos en láminas semifinas, a mí no me gusta que se deshagan sino que al freírlas se tuesten un poco. Las colocamos en un bol grande, donde luego vamos a mezclar con el huevo y añadimos sal al gusto. Removemos bien y reservamos.</li>
+     <li>Elegimos nuestra sartén más grande y antiadherente. La ponemos al fuego y añadimos un buen aceite de oliva virgen extra.</li>
+     <li>No tengáis miedo en gastaros un poco de dinero en aceite, le va a dar ese punto de sabor que distingue vuestra tortilla de las demás, podéis emplear muchas variedades: arbequina, picual, cornicabra, hojiblanca, royal… el que más os guste, pero de calidad.</li>
+     <li>Introducimos las patatas cortadas y ya saladas y dejamos que se cocinen durante aproximadamente veinte minutos a fuego bajo.</li>
+     <li>El tema del grosor de las patatas también va a gustos. Hay quien prefiere cortarlas a trozos muy pequeños, en láminas muy finas que casi se rompan al freír y o más bien grandes.</li>
+     <li>Mientras se están friendo las patatas, en el bol donde luego vamos a echar las patatas batimos los huevos, reservamos</li>
+     <li>Pelamos la cebolla y cortamos lo más fino posible.</li>
+     <li>En otra sartén calentamos aceite de oliva y añadimos los trozos de cebolla.</li>
+     <li><img src="receta/tortilla2.jpg" alt="Tortilla Española" width="250" height="200" title="Tortilla Española">Pochamos hasta que tenga un color dorado, que tenga un punto de caramelización pero sin llegar a quemarse. La cebolla se hará antes que las patatas, así que escurrimos y añadimos al bol con el huevo batido.</li>
+   </ol>
+   
+   </section>
+   </div>
+   
+   <br><br><br><br>
    <form>
+
+    <div>
     <label for="nombre">Nombre</label>
     <input id="nombre" type="text"><br><br>
- 
+    </div> 
+
+    <div>
     <label for="ape1">Primer Apellido</label>
     <input id="ape1" type="text"><br><br>
+    </div>
 
+    <div>
     <label for="ape2">Segundo Apellido</label>
     <input id="ape2" type="text"><br><br>
+    </div>
 
+    <div>
     <label for="tlf">Número de Teléfono</label>
     <input id="tlf" type="text"><br><br>
+    </div>
 
+    <div>
     <label for="mail">Correo Electrónico</label>
     <input id="mail" type="text"><br><br>
+    </div>
 
+    <div>
     <label for="comentario"></label>
-    <textarea class="textarea">  Deja tu comentario</textarea><br><br>
+    <textarea class="textarea" id="comentario" name="comentarios">  Deja tu comentario</textarea>
+    </div><br><br>
+
+    <div>
+      <label for="opinion">Deja tu Valoración</label>
+      <input name="satis" type="radio" value="Malo">Pésimo
+      <input name="satis" type="radio" value="Regular">Regular
+      <input name="satis" type="radio" value="Bueno">Bueno
+      <input name="satis" type="radio" value="Excelente">Excelente
+    </div><br><br>
 
     <button>Enviar</button>
     
@@ -43,7 +133,7 @@
    <br>
    <a href="https://github.com/AyalaFLow/NVL-HTML.git"><b><i>ENLACE AL REPOSITORIO DE EJERCICIOS</i></b></a>
    </div>
-
+   </div>
 
 </body>
 </html>
