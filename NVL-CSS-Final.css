@@ -6,99 +6,249 @@
 
 body{
 background: linear-gradient(black, brown);
+font-weight: bolder;
+text-align: center;
+font-family: Garamond;
+margin:20px;
+padding: 30px;
 }
 .encabezado{
-text-align: center;
-color: yellow;
-font-size: 20px;
+background-image: url("foto/encabezado.jpg");
+background-repeat: no-repeat;
+background-size: 1210px 140px;
+margin: 20px;
+padding: 10px 70px 130px 70px; 
+border-radius: 20px;
 }
-.pie{
-text-align: center;
+header{
+color: red;
+}
+footer{
+margin: 20px;
 font: italic;
+clear: left;
 }
-#cuerporeceta{
-margin:30px 100px 20px 100px;
-padding: 50px 200px 100px 200px;
+footer a:link{
+color: black;
 }
-/*Estilos generales del documento, Encabezado, cuerpo y pie*/
-
-
-/*estilos de la receta de cocina*/
-.nombreceta{
- font-size: 15pt;
- font-weight: bolder; 
- letter-sapcing: 3px;
- font-family: Garamond;
- color: silver;
- padding: 0px 40px;
-}
-table hr{
-margin-left:40px;
-margin-right:0px;
-}
-.nombreceta h1{
- color: orange;
-}
-table{
-border-spacing: 30px 0px;
-}
-table dt{
-color:orange;
-}
-.ingredientes{
- font-size: 13pt;
- font-weight: bolder; 
- letter-sapcing: 3px;
- font-family: Garamond;
- color: silver;
- padding: 15px 40px 30px 90px;
- margin-top: 15px;
-}
-.ingredientes h2{
+footer a:visited{
 color: orange;
 }
-.ingredientes table{
-border-collapse: separate;
-border-bottom: 1px solid lightblue;
-border-top: 1px solid lightblue;
-border-spacing: 0px 7px;
+footer a:active{
+color: purple;
 }
-#notatortilla{
- font-size: 16pt;
- font-weight: bold; 
- letter-spacing: 2px;
- font-family: Garamond;
- color: silver;
- padding: 15px 120px 30px 120px;
- margin-top: 15px;
- text-align: justify;
+footer a{
+position: relative;
+overflow: hidden;
+display: inline-block;
+text-decoration: none;
+color: #333;
 }
-#prepara{
-margin-top: 15px;
-padding: 15px 110px 30px 110px;
-font-size: 13pt;
-font-weight: bolder;
-letter-spacing: 3px;
-font-family: Garamond;
-color: silver;
+footer a:before, footer a:after {
+content: "";
+position: absolute;
+top: 0;
+left: -100%;
+width: 100%;
+height: 2px;
+background: gold;
+transition: left .8s;
+}
+footer a:hover:before {
+left: 0;
+}
+footer a:after {
+top: auto;
+bottom: 0;
+left: auto;
+right: -100%;
+background: gold;
+transition: right .8s;
+}
+footer a:hover:after {
+right: 0;
 }
 
+
+/*Estilos generales del documento, Encabezado, cuerpo y pie*/
+
+/*estilos del cuerpo de la pagina*/
+
+.wrapper
+        {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 20px;       
+    }
+#izquierda
+        {
+        padding: 0px;
+        margin: auto;
+        width: 230px;
+        height: auto;
+        background-color: #414553;	
+        float: left;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        border-radius: 30px;
+    }
+dl a:link{
+color: darkviolet;
+}
+dl a:visited{
+color: deepskyblue;
+}
+dl a:active{
+color: gold;
+}
+dt{
+	font-size: 22px;
+	margin: inherit;
+	padding: inherit;
+}
+#centro
+        {
+        margin:0px 250px 0px 250px;
+        padding: 1px 3px 2px 3px;
+        background-color: #ffffff; 
+        width: auto;
+		height: auto;
+        border-radius: 30px;
+    }
+section{
+font-size: 19px;
+font-weight: normal;
+margin: 5px 10px 30px 10px;
+padding: 5px 20px 100px 20px;
+border: 6px ridge silver;
+text-align: left;
+border-radius: 30px;
+}
+section h2{
+	color:orangered;
+	font-size: 35px;
+}
 img{
-float: right;
-padding: 10px;
-margin: auto;
+	float: left;
+	padding-right: 8px;	
+	
+}
+section a{
+	font-size: 21px;
+}
+section a:link{
+color: black;
+}
+section a:visited{
+color: darkgreen;
+}
+section a:active{
+color: purple;
+}
+section a {
+position: relative;
+overflow: hidden;
+display: inline-block;
+text-decoration: none;
+color: green;
+}
+section a:after {
+content: "";
+position: absolute;
+bottom: 0;
+left: -100%;
+width: 100%;
+height: 2px;
+background: #40EB1E;
+transition: left .8s;
+}
+section a:hover:after {
+left: 0;
+}
+
+#inglesa{
+	    margin:0px 250px 100px 250px;
+        padding: 10px 3px 1px 3px;
+        background-color: #ffffff; 
+        width: auto;
+		height: auto;
+        border-radius: 30px;
+}
+div#inglesa img{
+	width: 300px;
+	height: 200px;
+}
+#mosca{
+	    margin:0px 250px 100px 250px;
+        padding: 10px 3px 1px 3px;
+        background-color: #ffffff; 
+        width: auto;
+		height: auto;
+        border-radius: 30px;	
+}
+
+#derecha
+        {
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+        margin: 0px;
+        width: 230px;
+        height: auto;
+        background-color: #414553;             
+        float: right;
+        position: sticky;
+        top: 0;
+        border-radius: 30px; 	
+}
+#lucio{
+	    margin:0px 250px 100px 250px;
+        padding: 10px 3px 1px 3px;
+        background-color: #ffffff; 
+        width: auto;
+		height: auto;
+        border-radius: 30px;
+	
+}
+div#lucio img{
+	width: 300px;
+	height: 200px;
+	clear: both;
+}
+li a:link{
+color: darkviolet;
+}
+li a:visited{
+color: deepskyblue;
+}
+li a:active{
+color: gold;
+}
+ul{
+	list-style: none;
+	font-size: 22px;
+	margin: 3px;
+	padding: 8px;
+	
+}ul li{
+	margin: 3px;
+	padding: 5px;
+}
+ul h3{
+	color: deepskyblue;
 }
 
 
-
-
-/*estilos de la receta de cocina*/
-
+/*estilos del cuerpo de la pagina*/
 
 /*Estilos del formulario*/
 
 form{
-margin: 30px 30px 20px 30px;
+margin: 55px 30px 20px 30px;
 text-align: center;
 overflow: auto;
 padding: 30px;
@@ -109,19 +259,16 @@ label{
  display: inline-block;
  width: 190px;
  padding-right: 5px;
- font-size: 15pt;
+ font-size: 12pt;
  font-weight: bolder; 
- letter-sapcing: 3px;
- font-family: Garamond;
  color: gold;
 }
 button{
- float: center;
- width: calc(300px - 200px)
+width: calc(300px - 200px)
 }
 form button{
 background: silver;
-border: 5px inset black;
+border: 5px inset gray;
 padding: 6px;
 }
 form button:hover{
@@ -129,11 +276,11 @@ background: gold;
 }
 .textarea{
 float: center;
-width: 290px;
-height: 150px;
+width: 250px;
+height: 80px;
 border:1px dotted red;
 font-family: Garamond,verdana;
-font-size: 14pt;
+font-size: 12pt;
 font-weight: bold;
 letter-spacing: 5px;
 color: gold;
